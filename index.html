@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>小鸡动画</title>
+	<style type="text/css">
+		#donghua{
+			width: 120px;
+			height: 120px;
+			overflow: hidden;
+			margin:100px auto 0;
+		}
+		#donghua div{
+
+			width: 120px;
+			height: 120px;
+			background: url(2012121922493686.png) no-repeat 0 0;
+			-webkit-animation: doorani 1s step-end  infinite alternate;
+			animation: doorani 1s step-end  infinite alternate;
+		}
+		@-webkit-keyframes doorani {
+  			18%{ background-position-x: -120px; }
+  			36%{background-position: -240px 0;}
+  			54%{background-position: -360px 0;}
+  			62%{background-position: -480px 0;}
+  			80%{background-position: -600px 0;}
+  			100%{background-position: -600px 0;}
+  		}
+  		@keyframes doorani {
+  			18%{ background-position-x: -120px; }
+  			36%{background-position: -240px 0;}
+  			54%{background-position: -360px 0;}
+  			62%{background-position: -480px 0;}
+  			80%{background-position: -600px 0;}
+  			100%{background-position: -600px 0;}
+  		}
+}
+
+
+	</style>
+</head>
+<body>
+	<div id="donghua">
+		<div>
+			
+		</div>
+	</div>
+</body>
+</html>
